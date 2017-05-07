@@ -1,0 +1,127 @@
+
+  <Database>
+    <Record>
+      <Key>
+        Convert 
+      </Key>
+      <Name>
+        Convert 
+      </Name>
+      <Category>
+        Helper code
+      </Category>
+      <TimeDate>
+        2017-02-10.19:29:43
+      </TimeDate>
+      <Description>
+        this is the convert project 
+      </Description>
+      <Data>
+        contains .h and .cpp 
+      </Data>
+      <Children>
+      </Children>
+    </Record>
+    <Record>
+      <Key>
+        CppProperties
+      </Key>
+      <Name>
+        CppProperties
+      </Name>
+      <Category>
+        Helper code
+      </Category>
+      <TimeDate>
+        2017-02-10.19:29:43
+      </TimeDate>
+      <Description>
+        c++ properties
+      </Description>
+      <Data>
+       contains .h and .cpp files
+      </Data>
+      <Children>
+      </Children>
+    </Record>
+    <Record>
+      <Key>
+        NoSqlDb 
+      </Key>
+      <Name>
+        NoSqlDb
+      </Name>
+      <Category>
+        edited 
+      </Category>
+      <TimeDate>
+        2017-02-10.19:29:43
+      </TimeDate>
+      <Description>
+        Contains all methods of the NoSqlDb i.e creating, updating and deleting records.
+      </Description>
+      <Data>
+        contains.h and .cpp files
+      </Data>
+      <Children>
+        <child>
+          CppProperties
+        </child>
+		<child>
+			XmlDocument
+        </child>
+      </Children>
+    </Record>
+    <Record>
+      <Key>
+        Query
+      </Key>
+      <Name>
+        Query
+      </Name>
+      <Category>
+        project created by me 
+      </Category>
+      <TimeDate>
+        2017-02-10.19:29:43
+      </TimeDate>
+      <Description>
+        this contains all the methods for querying the database. 
+      </Description>
+      <Data>
+        contains .h and .cpp files.
+      </Data>
+      <Children>
+        <child>
+          NoSqlDb
+        </child>
+    </Record>
+    <Record>
+      <Key>
+        TestExecutive
+      </Key>
+      <Name>
+        TestExecutive
+      </Name>
+      <Category>
+        project created by medialabel
+      </Category>
+      <TimeDate>
+        2017-02-10.19:29:43
+      </TimeDate>
+      <Description>
+       This demonstrates all the requirements 
+      </Description>
+      <Data>
+        Contains only a .cpp file
+      </Data>
+      <Children>
+        <child>
+          NoSqlDb
+        </child>
+        <child>
+          Query
+        </child>
+      </Children>
+    </Record>
+  </Database>
